@@ -22,7 +22,7 @@ return new class extends Migration
             $table->foreign('cadastro_id')
                   ->references('id')
                   ->on('cadastros')
-                  ->onDelete('cascade'); 
+                  ->onDelete('cascade');
         });
     }
 
