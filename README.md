@@ -7,6 +7,7 @@ Projeto de  gerencia de tabelas migrations no laravel
  - Crie uma pasta no caminho xampp/htdocs chamada Fornecedores
  - Retire o "." do texto ".extension=zip" do arquivo php.init no caminho xampp/php
  - Abra a pasta com o vscode
+ - Abra o xampp control e ative o mysql
 
 ## Instalando o Laravel
   - Abra um terminal de comando no vscode e use esse comando para instalar o laravel no seu projeto
@@ -67,7 +68,19 @@ php artisan make:migration add_razao_social_and_nome_fantasia_to_cadastros_table
   
 <img width="547" height="416" alt="image" src="https://github.com/user-attachments/assets/5c0fd27b-6bdc-4cff-8de3-b4799e372d46" />
 
-- Compile as migrations 
+- Execute as migrations
+
+<img width="800" height="379" alt="image" src="https://github.com/user-attachments/assets/c81fd620-70aa-44af-a7bf-4692273d78a4" />
+
+## Conferindo as migrations no phpMyAdmin
+- Acesse o servidor do phpMyAdmin no xampp e confira se as migrations estão corretas
+
+  <img width="1161" height="478" alt="image" src="https://github.com/user-attachments/assets/fb670b93-f2c2-438e-ac50-4f028df81760" />
+
+  <img width="1177" height="516" alt="image" src="https://github.com/user-attachments/assets/d116bcd8-fd57-48fb-869c-62a7b71422e9" />
+
+
+
 
 
 
